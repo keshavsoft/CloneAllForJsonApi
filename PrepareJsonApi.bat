@@ -1,1 +1,1 @@
-xcopy JsonApi\KeshavSoft\KData JsonApi\KeshavSoft\KData /s /e /Y
+xcopy JsonApi\KeshavSoft\KData JsonApi\KData /s /e /Y
