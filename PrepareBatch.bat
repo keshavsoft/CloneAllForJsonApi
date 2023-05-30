@@ -14,6 +14,7 @@ xcopy KStaticFiles\src\public\JSONAdminApi JsonApi\public\JSONAdminApi  /s /e /Y
 xcopy KStaticFiles\src\public\JSONReports JsonApi\public\JSONReports  /s /e /Y
 xcopy KStaticFiles\src\public\JSONUser JsonApi\public\JSONUser  /s /e /Y
 xcopy KStaticFiles\src\public\JSONUtility JsonApi\public\JSONUtility  /s /e /Y
+xcopy KStaticFiles\src\public\Garments JsonApi\public\Garments  /s /e /Y
 
 
 
