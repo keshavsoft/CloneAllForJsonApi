@@ -6,8 +6,8 @@ or
 vscode terminal
 run the below commands
 
-1.  cloneall.bat
-2.  run CopyRepos.bat
+1.  cloneall
+2.  CopyRepos
 3.  cd JSONApi 
 4.  npm i
 5.  node app
