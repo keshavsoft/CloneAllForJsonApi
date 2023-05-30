@@ -19,11 +19,3 @@ xcopy JSONUtility\Projects\JSONUtility JsonApi\Projects\JSONUtility /s /e /Y
 npm i
 
 
-cd KStaticFiles
-node start
-cd..
-
-
-xcopy JsonApi\KeshavSoft\KData JsonApi\KData /s /e /Y
-
-
