@@ -1,17 +1,12 @@
 .vscode/
 node_modules/
 
-/KData
-/DataSupply
-
-web.config
-
-/common-
-
-/Projects
-
-/public
-
-/restclient
+/AdminApi
+/JsonApi
+/JSONDataSupply
+/JSONReports
+/JSONUser
+/JSONUtility
+/KStaticFiles
 
 .env
