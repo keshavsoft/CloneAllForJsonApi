@@ -8,7 +8,8 @@ run the below commands
 
 1.  cloneall
 2.  CopyRepos
-3.  CopyStaticFiles
-4.  cd JSONApi 
-5.  npm i
-6.  node app
+3.  GenerateStaticFiles
+4.  CopyStaticFiles
+5.  cd JSONApi 
+6.  npm i
+7.  node app
