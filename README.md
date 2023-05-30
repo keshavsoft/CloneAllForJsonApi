@@ -11,5 +11,6 @@ run the below commands
 3.  npm i
 4.  GenerateStaticFiles
 5.  CopyStaticFiles
-6.  cd JSONApi 
-7.  node app
+6.  PrepareJsonApi
+7.  cd JSONApi 
+8.  node app
