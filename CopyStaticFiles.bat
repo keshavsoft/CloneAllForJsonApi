@@ -1,0 +1,2 @@
+cd KStaticFiles
+node start
