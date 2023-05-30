@@ -1,0 +1,17 @@
+.vscode/
+node_modules/
+
+/KData
+/DataSupply
+
+web.config
+
+/common-
+
+/Projects
+
+/public
+
+/restclient
+
+.env
