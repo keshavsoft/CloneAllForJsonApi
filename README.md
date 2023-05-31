@@ -6,11 +6,7 @@ or
 vscode terminal
 run the below commands
 
-1.  cloneall
-2.  CopyRepos
-3.  npm i
-4.  GenerateStaticFiles
-5.  CopyStaticFiles
-6.  PrepareJsonApi
-7.  cd JSONApi 
-8.  node app
+1.  StartBatch
+2.  PrepareBatch
+3.  cd JSONApi 
+4.  node app
