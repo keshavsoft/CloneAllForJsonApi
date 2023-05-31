@@ -1,4 +1,4 @@
-gh repo clone keshavsoft/JSONDataSupply
+git clone -c core.longpaths=true https://github.com/keshavsoft/JSONDataSupply
 
 gh repo clone keshavsoft/AdminApi
 gh repo clone keshavsoft/KStaticFiles
