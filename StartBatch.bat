@@ -8,7 +8,7 @@ gh repo clone keshavsoft/JSONUtility
 gh repo clone keshavsoft/JSONReports
 
 
-xcopy JSONDataSupply\DataSupply JsonApi\DataSupply\ /s /e /Y
+ROBOCOPY JSONDataSupply\DataSupply JsonApi\DataSupply\ /MIR
 
 xcopy AdminApi\Projects\JSONAdminApi JsonApi\Projects\JSONAdminApi\ /s /e /Y
 xcopy JSONReports\Projects\JSONReports JsonApi\Projects\JSONReports\ /s /e /Y
