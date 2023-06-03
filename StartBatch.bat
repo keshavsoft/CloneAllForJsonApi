@@ -1,7 +1,9 @@
 git clone -c core.longpaths=true https://github.com/keshavsoft/JSONDataSupply
 
 gh repo clone keshavsoft/AdminApi
-gh repo clone keshavsoft/KStaticFiles
+
+git clone -c core.longpaths=true https://github.com/keshavsoft/StaticWithInclude
+
 gh repo clone keshavsoft/JsonApi
 gh repo clone keshavsoft/JSONUser
 gh repo clone keshavsoft/JSONUtility
