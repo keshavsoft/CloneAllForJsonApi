@@ -1,0 +1,2 @@
+cd StaticWithInclude
+node start
