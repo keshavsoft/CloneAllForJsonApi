@@ -1,14 +1,11 @@
 git clone -c core.longpaths=true https://github.com/keshavsoft/JSONDataSupply
-
-gh repo clone keshavsoft/AdminApi
-
+git clone -c core.longpaths=true https://github.com/keshavsoft/AdminApi
 git clone -c core.longpaths=true https://github.com/keshavsoft/StaticWithInclude
 
-gh repo clone keshavsoft/JsonApi
-gh repo clone keshavsoft/JSONUser
-gh repo clone keshavsoft/JSONUtility
-gh repo clone keshavsoft/JSONReports
-
+git clone -c core.longpaths=true https://github.com/keshavsoft/JsonApi
+git clone -c core.longpaths=true https://github.com/keshavsoft/JSONUser
+git clone -c core.longpaths=true https://github.com/keshavsoft/JSONUtility
+git clone -c core.longpaths=true https://github.com/keshavsoft/JSONReports
 
 ROBOCOPY JSONDataSupply\DataSupply JsonApi\DataSupply\ /MIR
 
