@@ -28,3 +28,10 @@ xcopy StaticWithInclude\public\Projects\JSONAdminApi JsonApi\public\JSONAdminApi
 xcopy StaticWithInclude\public\Projects\JSONUser JsonApi\public\JSONUser\  /s /e /Y
 
 
+if exist "JsonApi\KeshavSoft\BoilerPate\Empty\" (
+    if exist "JsonApi\KData\" (
+        echo Yes 
+    ) else (
+        ROBOCOPY JsonApi\KeshavSoft\BoilerPate\Empty\KData JsonApi\KData /MIR
+    )
+)
