@@ -13,3 +13,9 @@ cp -r AdminApi/Projects/JSONAdminApi/. JsonApi/Projects/JSONAdminApi
 cp -r JSONReports/Projects/JSONReports/. JsonApi/Projects/JSONReports
 cp -r JSONUser/Projects/JSONUser/. JsonApi/Projects/JSONUser
 cp -r JSONUtility/Projects/JSONUtility/. JsonApi/Projects/JSONUtility
+
+npm install
+
+cd StaticWithInclude
+node start
+cd -
