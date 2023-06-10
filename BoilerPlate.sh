@@ -19,3 +19,8 @@ npm install
 cd StaticWithInclude
 node start
 cd -
+
+cp -r JSONDataSupply/DataSupply/. JsonApi/DataSupply
+
+cp -r StaticWithInclude/public/Projects/JSONAdminApi/. JsonApi/public/JSONAdminApi
+cp -r StaticWithInclude/public/Projects/JSONUser/. JsonApi/public/JSONUser
