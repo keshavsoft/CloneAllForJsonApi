@@ -26,8 +26,8 @@ cd..
 
 xcopy StaticWithInclude\public\Projects\JSONAdminApi JsonApi\public\JSONAdminApi\  /s /e /Y
 xcopy StaticWithInclude\public\Projects\JSONUser JsonApi\public\JSONUser\  /s /e /Y
-xcopy ..\StaticWithInclude\public\Projects\JSONApi  public\JSONApi\  /s /e /Y
-xcopy ..\StaticWithInclude\public\Projects\Garments  public\Garments\  /s /e /Y
+xcopy StaticWithInclude\public\Projects\JSONApi  JsonApi\public\JSONApi\  /s /e /Y
+xcopy StaticWithInclude\public\Projects\Garments  JsonApi\public\Garments\  /s /e /Y
 
 
 if exist "JsonApi\KeshavSoft\BoilerPate\Empty\" (
