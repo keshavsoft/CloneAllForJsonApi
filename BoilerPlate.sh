@@ -27,4 +27,4 @@ cp -r JSONDataSupply/DataSupply/. JsonApi/DataSupply
 cp -r StaticWithInclude/public/Projects/JSONAdminApi/. JsonApi/public/JSONAdminApi
 cp -r StaticWithInclude/public/Projects/JSONUser/. JsonApi/public/JSONUser
 
-[ ! -d "$dldir" ] && mkdir -p "$dldir"
+[ ! -d "$dldir" ] && cp -r KeshavSoft/BoilerPate/Empty/KData. "$dldir"
