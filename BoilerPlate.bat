@@ -30,7 +30,7 @@ xcopy StaticWithInclude\public\Projects\JSONApi  JsonApi\public\JSONApi\  /s /e 
 xcopy StaticWithInclude\public\Projects\Garments  JsonApi\public\Garments\  /s /e /Y
 
 
-if exist "JsonApi\KeshavSoft\BoilerPate\Empty\" (
+if exist "JsonApi\KeshavSoft\BoilerPlate\Empty\" (
     if exist "JsonApi\KData\" (
         echo Yes 
     ) else (
