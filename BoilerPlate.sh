@@ -1,3 +1,5 @@
+dldir="KData"
+
 git clone -c core.longpaths=true https://github.com/keshavsoft/JSONDataSupply
 git clone -c core.longpaths=true https://github.com/keshavsoft/AdminApi
 git clone -c core.longpaths=true https://github.com/keshavsoft/StaticWithInclude
@@ -24,3 +26,5 @@ cp -r JSONDataSupply/DataSupply/. JsonApi/DataSupply
 
 cp -r StaticWithInclude/public/Projects/JSONAdminApi/. JsonApi/public/JSONAdminApi
 cp -r StaticWithInclude/public/Projects/JSONUser/. JsonApi/public/JSONUser
+
+[ ! -d "$dldir" ] && mkdir -p "$dldir"
