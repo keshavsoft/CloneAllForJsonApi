@@ -18,7 +18,7 @@ cp -r JSONUser/Projects/JSONUser/. JsonApi/Projects/JSONUser
 cp -r JSONUtility/Projects/JSONUtility/. JsonApi/Projects/JSONUtility
 cp -r JSONUtility/Projects/JSONUtility/. JsonApi/Projects/JSONUtility
 cp -r JSONImport/Projects/JSONImport/. JsonApi/Projects/JSONImport
-cp -r JSONImport/Projects/Tally /. JsonApi/Projects/Tally
+cp -r JSONImport/Projects/Tally/. JsonApi/Projects/Tally
 
 npm install
 
