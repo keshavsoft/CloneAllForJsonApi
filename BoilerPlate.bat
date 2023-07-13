@@ -35,6 +35,7 @@ xcopy StaticWithInclude\public\Projects\JSONApi  JsonApi\public\JSONApi\  /s /e 
 xcopy StaticWithInclude\public\Projects\Garments  JsonApi\public\Garments\  /s /e /Y
 xcopy StaticWithInclude\public\Projects\JSONUtility  JsonApi\public\JSONUtility\  /s /e /Y
 xcopy StaticWithInclude\public\Projects\JSONReports  JsonApi\public\JSONReports\  /s /e /Y
+xcopy StaticWithInclude\public\Projects\Cleaning  JsonApi\public\Cleaning\  /s /e /Y
 
 
 if exist "JsonApi\KeshavSoft\BoilerPlate\Empty\" (
