@@ -16,7 +16,6 @@ cp -r AdminApi/Projects/JSONAdminApi/. JsonApi/Projects/JSONAdminApi
 cp -r JSONReports/Projects/JSONReports/. JsonApi/Projects/JSONReports
 cp -r JSONUser/Projects/JSONUser/. JsonApi/Projects/JSONUser
 cp -r JSONUtility/Projects/JSONUtility/. JsonApi/Projects/JSONUtility
-cp -r JSONUtility/Projects/JSONUtility/. JsonApi/Projects/JSONUtility
 cp -r JSONImport/Projects/JSONImport/. JsonApi/Projects/JSONImport
 cp -r JSONImport/Projects/Tally/. JsonApi/Projects/Tally
 
@@ -32,5 +31,6 @@ cp -r StaticWithInclude/public/Projects/JSONApi/. JsonApi/public/JSONApi
 cp -r StaticWithInclude/public/Projects/Garments/. JsonApi/public/Garments
 cp -r StaticWithInclude/public/Projects/JSONUtility/. JsonApi/public/JSONUtility
 cp -r StaticWithInclude/public/Projects/JSONReports/. JsonApi/public/JSONReports
+cp -r StaticWithInclude/public/Projects/Cleaning/. JsonApi/public/Cleaning
 
 [ ! -d "$dldir" ] && cp -r JsonApi/KeshavSoft/BoilerPlate/Empty/KData/. "$dldir"
