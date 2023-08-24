@@ -32,5 +32,6 @@ cp -r StaticWithInclude/public/Projects/Garments/. JsonApi/public/Garments
 cp -r StaticWithInclude/public/Projects/JSONUtility/. JsonApi/public/JSONUtility
 cp -r StaticWithInclude/public/Projects/JSONReports/. JsonApi/public/JSONReports
 cp -r StaticWithInclude/public/Projects/Cleaning/. JsonApi/public/Cleaning
+cp -r StaticWithInclude/public/Projects/ClientLogin/. JsonApi/public/ClientLogin
 
 [ ! -d "$dldir" ] && cp -r JsonApi/KeshavSoft/BoilerPlate/Empty/KData/. "$dldir"
