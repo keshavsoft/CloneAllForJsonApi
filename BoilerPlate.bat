@@ -25,12 +25,11 @@ call npm install
 
 
 cd StaticWithInclude
-node ForJsonApi
+call node ForJsonApi
 cd..
 
 
-xcopy StaticWithInclude\public\Projects\JSONApi  JsonApi\public\JSONApi\  /s /e /Y
-
+robocopy public\Projects\JSONApi  ..\JsonApi\public\JSONApi\  /MIR
 
 if exist "JsonApi\KeshavSoft\BoilerPlate\Empty\" (
     if exist "JsonApi\KData\" (
