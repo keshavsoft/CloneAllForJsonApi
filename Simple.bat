@@ -2,10 +2,12 @@ git clone -c core.longpaths=true https://github.com/keshavsoft/JSONDataSupply
 
 git clone -c core.longpaths=true https://github.com/keshavsoft/JsonApi
 git clone -c core.longpaths=true https://github.com/keshavsoft/JSONUser
+git clone -c core.longpaths=true https://github.com/keshavsoft/JSONReports
 
 ROBOCOPY JSONDataSupply\DataSupply JsonApi\DataSupply\ /MIR
 
 xcopy JSONUser\Projects\JSONUser JsonApi\Projects\JSONUser\ /s /e /Y
+xcopy JSONReports\Projects\JSONReports JsonApi\Projects\JSONReports\ /s /e /Y
 
 call npm install
 
